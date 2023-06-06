@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/TomLi0421/NFT-preview-card-component](https://github.com/TomLi0421/NFT-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://tomli0421.github.io/NFT-preview-card-component/](https://tomli0421.github.io/NFT-preview-card-component/)
 
 ## My process
 
