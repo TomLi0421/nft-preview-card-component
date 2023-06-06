@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  /* primary */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  /* neutral */
+  --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+  --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--very-dark-blue-main-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+}
+
+.container {
+  background-color: var(--very-dark-blue-card-bg);
+  max-width: 375px;
+  padding: 1.5rem 1.7rem 2.5rem 1.7rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.image-equilibrium {
+  width: 300px;
+  height: 300px;
+  border-radius: 0.8rem;
+}
+
+.description-container {
+  text-align: left;
+  margin: 1.5rem 0;
+  max-width: 300px;
+}
+
+.description-container h1 {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.description-container p {
+  color: rgba(211, 211, 211, 0.5);
+  font-weight: 300;
+  margin: 1rem 0;
+  line-height: 1.3;
+}
+
+.price-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--very-dark-blue-line);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  color: var(--cyan);
+}
+
+.ethereum-icon {
+  margin-right: 0.5rem;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  color: rgba(211, 211, 211, 0.5);
+}
+
+.clock-icon {
+  margin-right: 0.5rem;
+}
+
+.creator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avater-icon {
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  margin-right: 1rem;
+}
+
+.creator-info {
+  color: rgba(211, 211, 211, 0.5);
+}
+
+.creator-name {
+  color: var(--white);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: var(--white);
+}
+.attribution-white {
+  color: rgba(211, 211, 211, 0.5);
+}
